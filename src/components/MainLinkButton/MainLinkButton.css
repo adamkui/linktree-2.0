@@ -1,0 +1,65 @@
+.linkbutton {
+  border-radius: 1rem;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+  width: 80%;
+}
+
+.linkbutton:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.linkbutton .row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.linkbutton .row .icon {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  padding: 0.4rem 0;
+}
+
+.linkbutton .row .text {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.linkbutton .button-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.linkbutton span {
+  clip-path: circle();
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  transition: all 0.15s ease-in-out;
+  z-index: 2;
+}
+
+.linkbutton span:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.linkbutton span.copied {
+  border-radius: 0.5rem;
+  clip-path: none;
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+.logoWithLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.logoWithLabel h1 {
+  margin: 0 0rem 0 0.75rem;
+  padding-top: 3px;
+  font-family: "Gugi", cursive;
+}

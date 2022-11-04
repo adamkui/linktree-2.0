@@ -1,0 +1,9 @@
+.close {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.close:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  clip-path: circle();
+}

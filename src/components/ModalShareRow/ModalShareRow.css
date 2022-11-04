@@ -1,0 +1,27 @@
+.shareRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 85%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.shareRow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shareRow .left-section {
+  display: flex;
+  align-items: center;
+}
+
+.shareRow .left-section p {
+  margin-left: 1rem;
+  padding: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
