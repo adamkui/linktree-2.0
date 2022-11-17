@@ -18,7 +18,7 @@ export default component$(() => {
 
   const store = useContext(CTX);
 
-  const baseUrl = "https://adamkui-linktree.netlify.app/";
+  const baseUrl = "https://linktree.adamkui.hu/";
 
   return (
     <div

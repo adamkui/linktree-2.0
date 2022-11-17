@@ -24,7 +24,7 @@ export enum SocialPlatform {
 export default component$(({ social }: ShareRowProps) => {
   useStylesScoped$(styles);
 
-  const baseUrl = "https://adamkui-linktree.netlify.app/";
+  const baseUrl = "https://linktree.adamkui.hu/";
 
   const dataForSocial = {
     FACEBOOK: {
